@@ -26,7 +26,7 @@ This will build an image that is called cnx/jchem_webservcies with the tag: late
     
 # 3. Starting a container
 
-* Run `docker run -ti cxn/jchem_webservcies:latest -p 8080:8080`
+* Run `docker run -p 8080:8080 -ti cxn/jchem_webservices:latest`
     
 This will start the container and JChem Web Services in Tomcat.
 
