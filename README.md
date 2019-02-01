@@ -1,6 +1,6 @@
 This is only an example dockerization of [ChemAxon JChem Web Services](https://chemaxon.com/products/jchem-engines). We don't suggest to use this exact image in production but it can provide an example to start building your own image.
 
-# 1. Prerequisets
+# 1. Prerequisites
 
 * docker installed
 * Copy the war file from the latest JChem Web Services (JChem Web Services 18.22: https://chemaxon.com/download?dl=%2Fdata%2Fdownload%2Fwebservices%2F18.22.0%2Fwebservices-18.22.0-8840-b602.zip ) next to Dockerfile with the name: __webservices.war__
