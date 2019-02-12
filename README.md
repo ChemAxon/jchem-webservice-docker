@@ -30,7 +30,7 @@ This will build an image that is called cnx/jchem_webservcies with the tag: late
     
 This will start the container and JChem Web Services in Tomcat.
 
-You can connect to the service on http://localhost:8080/webservice/
+You can connect to the service on http://localhost:8080/webservices/
 
 # 4. Using docker-compose
 
