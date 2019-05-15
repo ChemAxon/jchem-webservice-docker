@@ -18,7 +18,7 @@ MAINTAINER JCB Support "jcb-support@chemaxon.com"
 # copy files
 COPY webservices.war /usr/local/tomcat/webapps/webservices.war
 COPY license.cxl /usr/local/tomcat/.chemaxon/license.cxl
-COPY ws-config.xml /usr/local/tomcat/.chemaxon/ws-config.cml
+COPY ws-config.xml /usr/local/tomcat/.chemaxon/ws-config.xml
 
 # set ChemAxon environment variables
 ENV CHEMAXON_LICENSE_URL /usr/local/tomcat/.chemaxon/license.cxl
