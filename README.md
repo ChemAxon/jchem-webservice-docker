@@ -35,3 +35,9 @@ You can connect to the service on http://localhost:8080/webservices/
 # 4. Using docker-compose
 
 JChem Web Services can also be started with docker-compose. You should only do steps from [#1](https://github.com/ChemAxon/jchem-webservice-docker#1-prerequisets) (extended with docker-compose installed) and than simply run `docker-compose up`
+
+## 4.1. Alternative config
+
+An alternative config from [Martin Mastnim](https://github.com/mastnym) was added so you can directly link the
+license and config file from docker-compose directory. Use it as `docker-compose --file alternative-docker-compose.yml up`.
+Please be aware that docker misses this feature on Windows. [pr](https://github.com/ChemAxon/jchem-webservice-docker/pull/5)
